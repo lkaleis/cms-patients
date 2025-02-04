@@ -15,3 +15,11 @@ The DE-SynPUF was created with the goal of providing a realistic set of claims d
 ## Purpose of Project
 
 Explore a sample of the synthetic data available to practice data engineering skills and conduct exploratory data analysis. Note that the total synthetic sample provided is 5% of the Medicare beneficiaries 2008 population and their claims from 2008-2010. One sample of the 20 downloadable files thus represents a 0.25% sample, convenient for researchers to determine what size of sample they would like to work with.
+
+## Setup
+
+### Download Vocabularies
+
+Download vocabulary files from http://www.ohdsi.org/web/athena/, ensuring that you select at minimum, the following vocabularies: SNOMED, ICD9CM, ICD9Proc, CPT4, HCPCS, LOINC, RxNorm, and NDC.
+
+You must request a license through UMLS: https://uts.nlm.nih.gov/uts/signUp to download CPT4 vocabulary terminology.
